@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large data and model files
+notebooks/*.pkl
+notebooks/products_vectorstore/
+*.pkl
+train.pkl
+random_forest_model.pkl
+ensemble_model.pkl
+test.pkl
+
+# Runtime files
+memory.json
+.ipynb_checkpoints/
+
+# Other large directories
+products_vectorstore/
